@@ -1,0 +1,220 @@
+ggwang@ggwang-laptop:~$ cd pphome
+ggwang@ggwang-laptop:~/pphome$ script/generate integration_spec layout_links
+
+      create  spec/integration/layout_links_spec.rb
+No such file or directory - /home/ggwang/pphome/spec/integration/layout_links_spec.rb
+ggwang@ggwang-laptop:~/pphome$ 
+ggwang@ggwang-laptop:~/pphome$ git config --global user.name "ggwang"
+程序 'git' 尚未安装。  您可以通过输入以下命令安装：
+sudo apt-get install git-core
+bash: git：找不到命令
+ggwang@ggwang-laptop:~/pphome$ cd ..
+ggwang@ggwang-laptop:~$ sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \
+>   libz-dev
+[sudo] password for ggwang: 
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+注意，选取 zlib1g-dev 而非 libz-dev
+zlib1g-dev 已经是最新的版本了。
+将会安装下列额外的软件包：
+  comerr-dev libgcrypt11-dev libgnutls-dev libgpg-error-dev libidn11-dev
+  libkadm55 libkrb5-dev libldap2-dev libtasn1-3-dev
+建议安装的软件包：
+  cvs gettext-doc libcurl3-dbg libgcrypt11-doc gnutls-doc gnutls-bin
+  guile-gnutls krb5-doc
+下列【新】软件包将被安装：
+  comerr-dev gettext libcurl4-gnutls-dev libexpat1-dev libgcrypt11-dev
+  libgnutls-dev libgpg-error-dev libidn11-dev libkadm55 libkrb5-dev
+  libldap2-dev libtasn1-3-dev
+共升级了 0 个软件包，新安装了 12 个软件包，要卸载 0 个软件包，有 3 个软件未被升级。
+需要下载 5857kB 的软件包。
+解压缩后会消耗掉 18.8MB 的额外空间。
+您希望继续执行吗？[Y/n]y
+获取：1 http://cn.archive.ubuntu.com jaunty/main gettext 0.17-6ubuntu2 [1910kB]
+获取：2 http://cn.archive.ubuntu.com jaunty/main gettext 0.17-6ubuntu2 [1910kB]
+获取：3 http://cn.archive.ubuntu.com jaunty/main libgpg-error-dev 1.4-2ubuntu7 [35.1kB]
+获取：4 http://cn.archive.ubuntu.com jaunty/main libgcrypt11-dev 1.4.1-2ubuntu1 [284kB]
+获取：5 http://cn.archive.ubuntu.com jaunty/main libtasn1-3-dev 1.5-1 [358kB]  
+获取：6 http://cn.archive.ubuntu.com jaunty-updates/main libgnutls-dev 2.4.2-6ubuntu0.1 [402kB]
+获取：7 http://cn.archive.ubuntu.com jaunty/main libidn11-dev 1.10-3 [614kB]   
+获取：8 http://cn.archive.ubuntu.com jaunty/main libidn11-dev 1.10-3 [614kB]   
+获取：9 http://cn.archive.ubuntu.com jaunty/main libidn11-dev 1.10-3 [614kB]   
+获取：10 http://cn.archive.ubuntu.com jaunty/main libidn11-dev 1.10-3 [614kB]  
+获取：11 http://cn.archive.ubuntu.com jaunty/main libkadm55 1.6.dfsg.4~beta1-5ubuntu2 [151kB]
+获取：12 http://cn.archive.ubuntu.com jaunty/main comerr-dev 2.1-1.41.4-1ubuntu1 [41.6kB]
+获取：13 http://cn.archive.ubuntu.com jaunty/main libkrb5-dev 1.6.dfsg.4~beta1-5ubuntu2 [92.9kB]
+获取：14 http://cn.archive.ubuntu.com jaunty/main libldap2-dev 2.4.15-1ubuntu3 [859kB]
+获取：15 http://cn.archive.ubuntu.com jaunty-updates/main libcurl4-gnutls-dev 7.18.2-8ubuntu4.1 [900kB]
+获取：16 http://cn.archive.ubuntu.com jaunty-updates/main libcurl4-gnutls-dev 7.18.2-8ubuntu4.1 [900kB]
+获取：17 http://cn.archive.ubuntu.com jaunty/main libexpat1-dev 2.0.1-4 [210kB]
+下载 4742kB，耗时 1h 17min 45s (1016B/s)                                       
+选中了曾被取消选择的软件包 gettext。
+(正在读取数据库 ... 系统当前总共安装有 141709 个文件和目录。)
+正在解压缩 gettext (从 .../gettext_0.17-6ubuntu2_i386.deb) ...
+选中了曾被取消选择的软件包 libgpg-error-dev。
+正在解压缩 libgpg-error-dev (从 .../libgpg-error-dev_1.4-2ubuntu7_i386.deb) ...
+选中了曾被取消选择的软件包 libgcrypt11-dev。
+正在解压缩 libgcrypt11-dev (从 .../libgcrypt11-dev_1.4.1-2ubuntu1_i386.deb) ...
+选中了曾被取消选择的软件包 libtasn1-3-dev。
+正在解压缩 libtasn1-3-dev (从 .../libtasn1-3-dev_1.5-1_i386.deb) ...
+选中了曾被取消选择的软件包 libgnutls-dev。
+正在解压缩 libgnutls-dev (从 .../libgnutls-dev_2.4.2-6ubuntu0.1_i386.deb) ...
+选中了曾被取消选择的软件包 libidn11-dev。
+正在解压缩 libidn11-dev (从 .../libidn11-dev_1.10-3_i386.deb) ...
+选中了曾被取消选择的软件包 libkadm55。
+正在解压缩 libkadm55 (从 .../libkadm55_1.6.dfsg.4~beta1-5ubuntu2_i386.deb) ...
+选中了曾被取消选择的软件包 comerr-dev。
+正在解压缩 comerr-dev (从 .../comerr-dev_2.1-1.41.4-1ubuntu1_i386.deb) ...
+选中了曾被取消选择的软件包 libkrb5-dev。
+正在解压缩 libkrb5-dev (从 .../libkrb5-dev_1.6.dfsg.4~beta1-5ubuntu2_i386.deb) ...
+选中了曾被取消选择的软件包 libldap2-dev。
+正在解压缩 libldap2-dev (从 .../libldap2-dev_2.4.15-1ubuntu3_i386.deb) ...
+选中了曾被取消选择的软件包 libcurl4-gnutls-dev。
+正在解压缩 libcurl4-gnutls-dev (从 .../libcurl4-gnutls-dev_7.18.2-8ubuntu4.1_i386.deb) ...
+选中了曾被取消选择的软件包 libexpat1-dev。
+正在解压缩 libexpat1-dev (从 .../libexpat1-dev_2.0.1-4_i386.deb) ...
+正在处理用于 man-db 的触发器...
+正在处理用于 doc-base 的触发器...
+Processing 4 added doc-base file(s)...
+Registering documents with scrollkeeper...
+正在设置 gettext (0.17-6ubuntu2) ...
+
+正在设置 libgpg-error-dev (1.4-2ubuntu7) ...
+正在设置 libgcrypt11-dev (1.4.1-2ubuntu1) ...
+正在设置 libtasn1-3-dev (1.5-1) ...
+
+正在设置 libgnutls-dev (2.4.2-6ubuntu0.1) ...
+正在设置 libidn11-dev (1.10-3) ...
+
+正在设置 libkadm55 (1.6.dfsg.4~beta1-5ubuntu2) ...
+
+正在设置 comerr-dev (2.1-1.41.4-1ubuntu1) ...
+
+正在设置 libkrb5-dev (1.6.dfsg.4~beta1-5ubuntu2) ...
+正在设置 libldap2-dev (2.4.15-1ubuntu3) ...
+正在设置 libcurl4-gnutls-dev (7.18.2-8ubuntu4.1) ...
+
+正在设置 libexpat1-dev (2.0.1-4) ...
+
+正在处理用于 libc6 的触发器...
+ldconfig deferred processing now taking place
+ggwang@ggwang-laptop:~$ cd git-1.6.0.5
+bash: cd: git-1.6.0.5: 没有该文件或目录
+ggwang@ggwang-laptop:~$ tar zxf git-1.6.5.4.tar.gz
+ggwang@ggwang-laptop:~$ cd git-1.6.5.4
+ggwang@ggwang-laptop:~/git-1.6.5.4$ make prefix=/usr/local all
+GIT_VERSION = 1.6.5.4
+    * new build flags or prefix
+    CC fast-import.o
+在包含自 builtin.h：4 的文件中，
+                 从 fast-import.c：143:
+git-compat-util.h:138:25: 错误： openssl/ssl.h：没有该文件或目录
+git-compat-util.h:139:25: 错误： openssl/err.h：没有该文件或目录
+在包含自 builtin.h：6 的文件中，
+                 从 fast-import.c：143:
+cache.h:9:21: 错误： openssl/sha.h：没有该文件或目录
+In file included from fast-import.c:152:
+csum-file.h:10: 错误： expected specifier-qualifier-list before ‘SHA_CTX’
+fast-import.c: 在函数‘create_index’中:
+fast-import.c:850: 错误： ‘SHA_CTX’未声明(在此函数内第一次使用)
+fast-import.c:850: 错误： (即使在一个函数内多次出现，每个未声明的标识符在其
+fast-import.c:850: 错误： 所在的函数内也只报告一次。)
+fast-import.c:850: 错误： expected ‘;’ before ‘ctx’
+fast-import.c:886: 警告： 隐式声明函数‘SHA1_Init’
+fast-import.c:886: 错误： ‘ctx’未声明(在此函数内第一次使用)
+fast-import.c:891: 警告： 隐式声明函数‘SHA1_Update’
+fast-import.c:896: 警告： 隐式声明函数‘SHA1_Final’
+fast-import.c: 在函数‘store_object’中:
+fast-import.c:1035: 错误： ‘SHA_CTX’未声明(在此函数内第一次使用)
+fast-import.c:1035: 错误： expected ‘;’ before ‘c’
+fast-import.c:1040: 错误： ‘c’未声明(在此函数内第一次使用)
+make: *** [fast-import.o] 错误 1
+ggwang@ggwang-laptop:~/git-1.6.5.4$ cd ..
+ggwang@ggwang-laptop:~$ tar -zxf git-1.6.0.5.tar.gz
+ggwang@ggwang-laptop:~$ d git-1.6.0.5
+bash: d：找不到命令
+ggwang@ggwang-laptop:~$ cd git-1.6.0.5
+ggwang@ggwang-laptop:~/git-1.6.0.5$ make prefix=/usr/local all
+GIT_VERSION = 1.6.0.5
+    * new build flags or prefix
+    CC fast-import.o
+在包含自 builtin.h：6 的文件中，
+                 从 fast-import.c：142:
+cache.h:8:21: 错误： openssl/sha.h：没有该文件或目录
+In file included from fast-import.c:151:
+csum-file.h:10: 错误： expected specifier-qualifier-list before ‘SHA_CTX’
+fast-import.c: 在函数‘create_index’中:
+fast-import.c:848: 错误： ‘SHA_CTX’未声明(在此函数内第一次使用)
+fast-import.c:848: 错误： (即使在一个函数内多次出现，每个未声明的标识符在其
+fast-import.c:848: 错误： 所在的函数内也只报告一次。)
+fast-import.c:848: 错误： expected ‘;’ before ‘ctx’
+fast-import.c:885: 警告： 隐式声明函数‘SHA1_Init’
+fast-import.c:885: 错误： ‘ctx’未声明(在此函数内第一次使用)
+fast-import.c:890: 警告： 隐式声明函数‘SHA1_Update’
+fast-import.c:895: 警告： 隐式声明函数‘SHA1_Final’
+fast-import.c: 在函数‘store_object’中:
+fast-import.c:1036: 错误： ‘SHA_CTX’未声明(在此函数内第一次使用)
+fast-import.c:1036: 错误： expected ‘;’ before ‘c’
+fast-import.c:1041: 错误： ‘c’未声明(在此函数内第一次使用)
+fast-import.c: 在函数‘validate_raw_date’中:
+fast-import.c:1749: 警告： 忽略声明有 warn_unused_result 属性的‘strtoul’的返回值
+fast-import.c:1758: 警告： 忽略声明有 warn_unused_result 属性的‘strtoul’的返回值
+make: *** [fast-import.o] 错误 1
+ggwang@ggwang-laptop:~/git-1.6.0.5$ cd ..
+ggwang@ggwang-laptop:~$ cd git-1.6.5.4
+ggwang@ggwang-laptop:~/git-1.6.5.4$ make
+    * new build flags or prefix
+    CC fast-import.o
+在包含自 builtin.h：4 的文件中，
+                 从 fast-import.c：143:
+git-compat-util.h:138:25: 错误： openssl/ssl.h：没有该文件或目录
+git-compat-util.h:139:25: 错误： openssl/err.h：没有该文件或目录
+在包含自 builtin.h：6 的文件中，
+                 从 fast-import.c：143:
+cache.h:9:21: 错误： openssl/sha.h：没有该文件或目录
+In file included from fast-import.c:152:
+csum-file.h:10: 错误： expected specifier-qualifier-list before ‘SHA_CTX’
+fast-import.c: 在函数‘create_index’中:
+fast-import.c:850: 错误： ‘SHA_CTX’未声明(在此函数内第一次使用)
+fast-import.c:850: 错误： (即使在一个函数内多次出现，每个未声明的标识符在其
+fast-import.c:850: 错误： 所在的函数内也只报告一次。)
+fast-import.c:850: 错误： expected ‘;’ before ‘ctx’
+fast-import.c:886: 警告： 隐式声明函数‘SHA1_Init’
+fast-import.c:886: 错误： ‘ctx’未声明(在此函数内第一次使用)
+fast-import.c:891: 警告： 隐式声明函数‘SHA1_Update’
+fast-import.c:896: 警告： 隐式声明函数‘SHA1_Final’
+fast-import.c: 在函数‘store_object’中:
+fast-import.c:1035: 错误： ‘SHA_CTX’未声明(在此函数内第一次使用)
+fast-import.c:1035: 错误： expected ‘;’ before ‘c’
+fast-import.c:1040: 错误： ‘c’未声明(在此函数内第一次使用)
+make: *** [fast-import.o] 错误 1
+ggwang@ggwang-laptop:~/git-1.6.5.4$ sudo make prefix=/usr/local install
+[sudo] password for ggwang: 
+    * new build flags or prefix
+    CC fast-import.o
+在包含自 builtin.h：4 的文件中，
+                 从 fast-import.c：143:
+git-compat-util.h:138:25: 错误： openssl/ssl.h：没有该文件或目录
+git-compat-util.h:139:25: 错误： openssl/err.h：没有该文件或目录
+在包含自 builtin.h：6 的文件中，
+                 从 fast-import.c：143:
+cache.h:9:21: 错误： openssl/sha.h：没有该文件或目录
+In file included from fast-import.c:152:
+csum-file.h:10: 错误： expected specifier-qualifier-list before ‘SHA_CTX’
+fast-import.c: 在函数‘create_index’中:
+fast-import.c:850: 错误： ‘SHA_CTX’未声明(在此函数内第一次使用)
+fast-import.c:850: 错误： (即使在一个函数内多次出现，每个未声明的标识符在其
+fast-import.c:850: 错误： 所在的函数内也只报告一次。)
+fast-import.c:850: 错误： expected ‘;’ before ‘ctx’
+fast-import.c:886: 警告： 隐式声明函数‘SHA1_Init’
+fast-import.c:886: 错误： ‘ctx’未声明(在此函数内第一次使用)
+fast-import.c:891: 警告： 隐式声明函数‘SHA1_Update’
+fast-import.c:896: 警告： 隐式声明函数‘SHA1_Final’
+fast-import.c: 在函数‘store_object’中:
+fast-import.c:1035: 错误： ‘SHA_CTX’未声明(在此函数内第一次使用)
+fast-import.c:1035: 错误： expected ‘;’ before ‘c’
+fast-import.c:1040: 错误： ‘c’未声明(在此函数内第一次使用)
+make: *** [fast-import.o] 错误 1
+ggwang@ggwang-laptop:~/git-1.6.5.4$ 
+
